@@ -53,10 +53,10 @@ async function load_followers(){
 async function follower_posts(canisterId, authorName){
   let authNameEle = document.getElementById("followname");
   authNameEle.innerText = authorName;
-  let actor = createActor(canisterId);
-  let posts = await actor.posts(0);
   let followPostsOl = document.getElementById("followPosts")
   followPostsOl.innerHTML = "";
+  let actor = createActor(canisterId);
+  let posts = await actor.posts(0);
   for (var i=0; i< posts.length; i++){
     let post = posts[i];
     let n_li = document.createElement("li");
