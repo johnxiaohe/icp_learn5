@@ -9,16 +9,31 @@
     <link type="text/css" rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <main>
-      <img src="logo2.svg" alt="DFINITY logo" />
-      <br />
-      <br />
-      <form action="#">
-        <label for="name">Enter your name: &nbsp;</label>
-        <input id="name" alt="Name" type="text" />
-        <button type="submit">Click Me!</button>
-      </form>
-      <section id="greeting"></section>
+    <header align="center"><h1>MicroBlog</h1></header>
+    <main style="width: 100%;">
+      <div id="postd" style="height: 400px;width: 50%; float: left; background-color: rgb(237, 246, 246);" align="center">
+        <label>Enter your post!</label>
+        <input id="post_input" type="text">
+        <button id="post">post</button>
+      </div>
+      <div id="postsd" style="height: 400px;width: 50%; float: left; background-color: rgb(250, 253, 252);">
+        <h3>History Posts</h3>
+        <hr>
+        <ol id="posts"></ol>
+      </div>
+      <div id="followd">
+        <div id="followedsd" style="height:200px;width: 50%;float:left;background-color: rgb(68, 68, 231);">
+          <ul id="follows">
+
+          </ul>
+        </div>
+        <div id="followPostsd" style="height: 200px; width: 50%;float: left;background-color: bisque;">
+          <span id="followname" style="height:50px;">authname</span>
+          <hr>
+          <ol id="followPosts">
+          </ol>
+        </div>
+      </div>
     </main>
   </body>
 </html>

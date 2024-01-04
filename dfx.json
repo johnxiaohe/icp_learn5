@@ -4,6 +4,18 @@
       "main": "src/icpfinally_backend/main.mo",
       "type": "motoko"
     },
+    "icpfinally_backend1": {
+      "main": "src/icpfinally_backend/main.mo",
+      "type": "motoko"
+    },
+    "icpfinally_backend2": {
+      "main": "src/icpfinally_backend/main.mo",
+      "type": "motoko"
+    },
+    "icpfinally_backend3": {
+      "main": "src/icpfinally_backend/main.mo",
+      "type": "motoko"
+    },
     "icpfinally_frontend": {
       "dependencies": [
         "icpfinally_backend"

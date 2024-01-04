@@ -1,0 +1,17 @@
+{
+  "icpfinally_backend": {
+    "ic": "bw62t-uaaaa-aaaap-qb54q-cai"
+  },
+  "icpfinally_backend1": {
+    "ic": "b75rp-ciaaa-aaaap-qb55a-cai"
+  },
+  "icpfinally_backend2": {
+    "ic": "by4x3-pqaaa-aaaap-qb55q-cai"
+  },
+  "icpfinally_backend3": {
+    "ic": "bn3gw-oyaaa-aaaap-qb56a-cai"
+  },
+  "icpfinally_frontend": {
+    "ic": "bk2ac-daaaa-aaaap-qb56q-cai"
+  }
+}
